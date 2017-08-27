@@ -9,12 +9,12 @@
   </div>
 
   <div if="{ status.ban }" class="ban { status.show ? 'showing' : '' }">
-    <img src="/assets/img/sperm.png">
+    <img src="./assets/img/sperm.png">
   </div>
 
   <!-- 追加ボタン -->
   <button onclick="{ _func.countUp }" class="btn btn-default btn-lg btn-block ban-button">
-    <img src="/assets/img/tissue.svg" width="75px" height="75px">
+    <img src="./assets/img/tissue.svg" width="75px" height="75px">
   </button>
 
   <hr>
